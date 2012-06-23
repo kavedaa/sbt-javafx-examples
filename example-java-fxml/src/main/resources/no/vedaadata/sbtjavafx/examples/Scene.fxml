@@ -1,0 +1,12 @@
+<?import javafx.scene.Scene?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+
+<Scene xmlns:fx="http://javafx.com/fxml" width="400" height="200" fx:controller="no.vedaadata.sbtjavafx.examples.SceneController">
+	<VBox>	
+		<Label text="Hello JavaFX from Java with FXML!"/>
+		<Button text="Please click me" onAction="#buttonAction"/>
+		<Label fx:id="thankYou"/>
+	</VBox>
+</Scene>
