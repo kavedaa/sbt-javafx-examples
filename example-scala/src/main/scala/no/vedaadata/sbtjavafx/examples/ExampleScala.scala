@@ -13,11 +13,11 @@ import javafx.scene.image.Image
 
 object ExampleScalaLauncher {
   def main(args: Array[String]) {
-    Application launch(classOf[ScalaExample], args: _*)
+    Application launch(classOf[ExampleScala], args: _*)
   }
 }
 
-class ScalaExample extends Application {
+class ExampleScala extends Application {
   
   def start(stage: Stage) {
     
