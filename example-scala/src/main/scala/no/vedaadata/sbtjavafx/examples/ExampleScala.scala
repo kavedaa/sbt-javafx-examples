@@ -11,7 +11,7 @@ import javafx.event.ActionEvent
 import javafx.scene.image.ImageView
 import javafx.scene.image.Image
 
-object ExampleScalaLauncher {
+object ExampleScala {
   def main(args: Array[String]) {
     Application launch(classOf[ExampleScala], args: _*)
   }

@@ -7,5 +7,3 @@ scalaVersion := "2.9.2"
 jfxSettings
 
 JFX.mainClass := "no.vedaadata.sbtjavafx.examples.ExampleScala"
-
-JFX.artifactBaseNameValue <<= name
