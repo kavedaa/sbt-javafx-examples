@@ -6,7 +6,6 @@ scalaVersion := "2.9.2"
 
 jfxSettings
 
-JFX.mainClass := "no.vedaadata.sbtjavafx.examples.ExampleJava"
+JFX.mainClass := Some("no.vedaadata.sbtjavafx.examples.ExampleJava")
 
 JFX.javaOnly := true
-

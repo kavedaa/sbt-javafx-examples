@@ -6,4 +6,4 @@ scalaVersion := "2.9.2"
 
 jfxSettings
 
-JFX.mainClass := "no.vedaadata.sbtjavafx.examples.ExampleScala"
+JFX.mainClass := Some("no.vedaadata.sbtjavafx.examples.ExampleScala")
