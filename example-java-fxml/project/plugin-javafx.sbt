@@ -1,1 +1,1 @@
-addSbtPlugin("no.vedaadata" % "sbt-javafx" % "0.4.1-SNAPSHOT")
+addSbtPlugin("no.vedaadata" % "sbt-javafx" % "0.6")
