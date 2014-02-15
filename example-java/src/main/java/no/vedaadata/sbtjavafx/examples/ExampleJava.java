@@ -38,6 +38,7 @@ public class ExampleJava extends Application {
 		root.getChildren().addAll(hello, button, response);
 
 		Scene scene = new Scene(root, Color.AZURE);
+		scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
 		stage.setScene(scene);
 		stage.show();
 	}
