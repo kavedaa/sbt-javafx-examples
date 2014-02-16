@@ -1,0 +1,1 @@
+Examples showing usage of the [SBT JavaFX plugin](https://github.com/kavedaa/sbt-javafx).
