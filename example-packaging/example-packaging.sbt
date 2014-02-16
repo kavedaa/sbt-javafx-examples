@@ -12,20 +12,17 @@ scalaVersion := "2.10.3"
 
 jfxSettings
 
-JFX.mainClass := Some("no.vedaadata.sbtjavafx.examples.ExampleScala")
+JFX.mainClass := Some("no.vedaadata.sbtjavafx.examples.Example")
 
 JFX.title := "JavaFX + SBT + Drop-in Package Resources"
 
 // `all` attempts to create all the package types build-able on the current platform.
 JFX.nativeBundles := "all"
 
-// For this exampole, the drop-in resources are rooted in the `./project` directory.
-JFX.pkgResourcesDir := Some(baseDirectory.value + "/project")
+// For this example, the drop-in resources are rooted in the `./project` directory.
+JFX.pkgResourcesDir <<= baseDirectory(d => Some(d + "/project"))
 
 // Setting this to `true` sets the `verbose` attribute in the generated `crossTarget.value + "/build.xml"` file.
 // By default, no effect is apparent when running sbt, but helpful packaging debug information
 // is written to the console when ant is run directly.
 JFX.verbose := true
-
-// Seems to be needed on MacOS.
-JFX.devKit := JFX.jdk(System.getProperty("java.home") + "/..")

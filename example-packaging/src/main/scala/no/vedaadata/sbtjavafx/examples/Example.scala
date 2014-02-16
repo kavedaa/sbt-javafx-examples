@@ -11,13 +11,13 @@ import javafx.event.ActionEvent
 import javafx.scene.image.ImageView
 import javafx.scene.image.Image
 
-object ExampleScala {
+object Example {
   def main(args: Array[String]) {
-    Application launch(classOf[ExampleScala], args: _*)
+    Application launch(classOf[Example], args: _*)
   }
 }
 
-class ExampleScala extends Application {
+class Example extends Application {
   
   def start(stage: Stage) {
     
